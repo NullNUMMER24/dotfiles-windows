@@ -5,3 +5,10 @@ Configuration for Winows
 - DarkTheme
 - ChangeWallpaper
 - InstallAppsOnWindows
+- SetSystemColor
+- NoFast Mouse
+
+# Allow execution of PowerShell Scripts
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
