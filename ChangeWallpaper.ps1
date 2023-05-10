@@ -1,4 +1,4 @@
-﻿$wallpaper = 'C:\Users\jamie\Downloads\Image.jpg'  # absolute path to the image file
+﻿$wallpaper = "$PSScriptRoot\background.jpg"
 Remove-ItemProperty -path "HKCU:\Control Panel\Desktop" -name WallPaper -Force
 Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name Wallpaper -value $wallpaper -Force
 RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
