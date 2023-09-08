@@ -1,3 +1,9 @@
+# Install git
+winget install git.git
+
+# Download the wallpaper repo
+git clone git@github.com:NullNUMMER24/wallpaper.git
+
 # Change the Wallpaper
 Start-Process powershell.exe -ArgumentList "-File `"$PSScriptRoot\ChangeWallpaper.ps1`""
 
